@@ -1,13 +1,69 @@
+@import{
+  url('https://fonts.googleapis.com/css?family=Merriweather|Mukta');
+}
+
+.mute-box{
+  padding: 0px;
+  margin:0px
+}
+
+
+#nav-header{
+  background-color: #green;
+  height: 50px;
+  width: 200px;
+  border: solid 1px;
+  position: absolute;
+  right: 100px;
+  bottom: 25px;
+}
+
+#main-content{
+  
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+#list-content{
+  float: left;
+  display: block;
+  
+  
+}
+
 body {
 background-color: #D3D3D3;
 }
 
 img{
-	height: 25%;
-	width: 25;
+	height: 200px;
+	width: 200px;
 	border-radius: 50%;
 }
 
 h3{
 	style = "text-decoration: underline";
+}
+
+#logoPic{
+  filter: drop-shadow(30px 10px 4px #4444dd);
+   height: 300px;
+    width: 300px;
+}
+
+.allPics{
+  border: dotted solid 22px black;
+}
+
+#*{
+  //border: solid 5px red;
+  display: block;
+}
+
+body{
+  background-color: #29B6F6;  
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+  
 }

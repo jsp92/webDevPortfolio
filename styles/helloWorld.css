@@ -7,6 +7,42 @@
   margin:0px
 }
 
+div.container1 {
+    height: 10em;
+    position: relative 
+}
+
+div.container1 p {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+section {
+        background: black;
+        color: white;
+        border-radius: 1em;
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) 
+}
+
+P { text-align: center 
+}
+
+P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+
 
 #nav-header{
   background-color: #green;
